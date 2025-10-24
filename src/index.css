@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #e3d7cb;
+}
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: #e3d7cb;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  box-sizing: border-box;
+}
+
+/* Logo styling (adjust as needed) */
+.logo-img {
+  height: 40px;
+  width: auto;
+}
+
+/* Nav links list horizontal */
+.nav-list {
+  display: flex;
+  gap: 32px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.nav-list li {
+  margin: 0;
+}
+
+.nav-list a {
+  color: #4e3327;
+  text-decoration: none;
+  font-size: 1.13em;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  transition: color 0.16s;
+}
+
+.nav-list a:hover {
+  color: #aa8062;
+}
+
+
+.hero {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.hero h1 { font-size: 4em; color: #eceff4; }
+
+.about, .portfolio, .contact {
+  padding: 120px 10%;
+}
+.about img { width: 220px; border-radius: 10px; margin-top: 20px; }
+.portfolio-grid { display: flex; flex-wrap: wrap; gap: 20px; }
+.portfolio img { width: 30%; border-radius: 8px; }
+form { display: flex; flex-direction: column; gap: 15px; width: 350px; }
+input, textarea { padding: 10px; border-radius: 6px; border: 1px solid #ccc; }
+button { background: #2e3440; color: white; border: none; padding: 10px; border-radius: 6px; cursor: pointer; }
+
+.logo-img {
+  height: 60px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 60vh;
+}
+
+.contact form {
+  margin: 0 auto;
+  width: 350px;
+  max-width: 90vw;
+}
+
+.contact-links {
+  margin-top: 18px;
+  display: flex;
+  justify-content: center; /* Center links under form */
+  gap: 20px;
+}
