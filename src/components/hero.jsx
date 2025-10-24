@@ -2,7 +2,7 @@ export default function Hero() {
     return (
         <section className="hero" style={{ background: "#e3d7cb" }}>
         <img
-          src="/p1.jpg"
+          src="public/p1.jpg"
           alt="Background"
           style={{
             position: "absolute",
